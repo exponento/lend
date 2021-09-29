@@ -1,9 +1,11 @@
 @font-face {
-    font-family: nunito;
-    src: url(../font/NunitoSans-Regular.ttf);
     font-family: yeseva;
     src: url(../font/YesevaOne-Regular.ttf);
-}  
+}
+@font-face {
+    font-family: nunito;
+    src: url(../font/NunitoSans-Regular.ttf);
+}
 
 
 body{

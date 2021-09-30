@@ -75,7 +75,9 @@ body{
     text-decoration-line: underline;
     color: #E3B873;
     margin-right: 45px;
-
+}
+.telefon_mobile{
+    display: none;
 }
 .comlet{
     font-size: 27px;
@@ -161,6 +163,7 @@ body{
     font-size: 18px;
     line-height: 25px;
     color: #363636;
+    padding-left: 23px;
 }
 .block_li{
     font-size: 13px;
@@ -452,6 +455,7 @@ body{
     height: 51px;
     width: 207px;
     margin-right: 20px;
+    margin-top: 9px;
 }
 .calc1{
     position: relative;
@@ -600,6 +604,10 @@ table{
     display: none;
     }
     .telefon{
+        display: none;
+    }
+    .telefon_mobile{
+        display: contents;
         margin-right: 18px;
     }
     .logo{

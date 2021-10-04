@@ -510,9 +510,7 @@ body{
 }
 /*checkbox*/
 .custom_check{
-    position: absolute;
-    z-index: -1;
-    opacity: 0;
+    display: none;
 }
 .custom_check+label {
     display: inline-flex;

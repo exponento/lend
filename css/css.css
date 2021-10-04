@@ -65,7 +65,6 @@ body{
     line-height: 15px;
     text-transform: uppercase;
     color: #E3B873;
-    margin-left: 92px;
 }
 
 .telefon{
@@ -158,6 +157,9 @@ body{
 .chec2{
     color: white;
     text-align: center;
+    position: relative;
+    top: 49px;
+    right: 93px;
 }
 .block_p{
     font-size: 18px;
@@ -443,6 +445,8 @@ body{
     background-color: #E3B873;
     margin-left: 20px;
     margin-bottom: 26px;
+    border: none;
+    cursor:pointer
 }
 .slyde_button{
     background: #E3B873;
@@ -450,12 +454,16 @@ body{
     height: 38px;
     width: 38px;
     border-radius: 50px;
+    border: none;
+    cursor:pointer
 }
 .calc{
     height: 51px;
     width: 207px;
     margin-right: 20px;
     margin-top: 9px;
+    border: none;
+    cursor:pointer
 }
 .calc1{
     position: relative;
@@ -463,13 +471,17 @@ body{
     top: 50px;
     min-height: 51px;
     width: 207px;
+    border: none;
+    cursor:pointer
 }
 .calc2{
     height: 51px;
     width: 200px;
     position: relative;
-    left: 341px;
-    top: 38px;
+    right: 335px;
+    top: 117px;
+    border: none;
+    cursor:pointer
 }
 .submit{
     border: 1px solid #FFFFFF;
@@ -481,6 +493,8 @@ body{
     height: 37px;
     width: 161px;
     margin-right: 90px;
+    border: none;
+    cursor:pointer
 }
 .block_but{
     width: 228px;
@@ -491,7 +505,40 @@ body{
     line-height: 25px;
     text-transform: uppercase;
     color: #FFFFFF;
+    border: none;
+    cursor:pointer
 }
+/*checkbox*/
+.custom_check{
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+.custom_check+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+  }
+  .custom_check+label::before {
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #adb5bd;
+    border-radius: 0.25em;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+  }
+  .custom_check:checked+label::before {
+    border-color: #0b76ef;
+    background-color: #E3B873;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+  }
+/*checkbox*/
 /**/
 .ludi_img{
     margin-bottom: -18px;
@@ -550,6 +597,8 @@ body{
     margin-top: -249px;
     background: #E3B873;
     box-shadow: 0px 5px 30px rgba(227, 184, 115, 0.2);
+    border: none;
+    cursor:pointer
 }
 .kist{
     margin-top: 12px;
@@ -593,7 +642,14 @@ table{
     .conteyner{
         max-width: 375px;
         margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
+    .block1{
+        margin-right: 0px;
+    }
+    
     .gorod1{
         display: none;
     }
@@ -601,7 +657,7 @@ table{
         display: none;
     }
     .navigation {
-    display: none;
+        display: none;
     }
     .telefon{
         display: none;
@@ -611,10 +667,10 @@ table{
         margin-right: 18px;
     }
     .logo{
-        margin-left: 18px;
+        margin-right: 20px;
     }
     .content_fon{
-        margin-left: 18px;
+        margin-left: 0px;
         margin-top: 142px;
         text-align-last: center;
         display: flex;
@@ -634,6 +690,7 @@ table{
         margin-bottom: 26px;
         position: relative;
         top: 50px;
+        margin-right: 0px;
     }
     .left{
         display: inline-block;
@@ -708,7 +765,6 @@ table{
         background-color: black;
         margin: 0 auto;
         position: relative;
-        bottom: 122px;
         z-index: -1;
         display: flex;
         flex-direction: column;
@@ -727,7 +783,7 @@ table{
         top: 0px;
     }
     .any{
-        padding-top: 173px;
+        padding-top: 22px;
     }
     .karta_mobile{
         display: flex;
@@ -769,5 +825,8 @@ table{
     }
     .chec{
         color: white;
+        position: relative;
+        right: 0px;
+        top: 0px;
     }
 }

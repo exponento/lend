@@ -90,36 +90,44 @@ body{
     line-height: 27px;
     color: #FFFFFF;
 }
-.table{
+.completed_projects_table_items{
     font-size: 18px;
     line-height: 25px;
     text-transform: uppercase;
     color: #E3B873;
     padding-right: 34px;
+    
 }
-.table1{
+table{
+    display: inline-block;
+    position: relative;
+    bottom: 272px;
+    margin-left: 134px;
+}
+
+.completed_projects_table_cells{
     font-size: 13px;
     line-height: 21px;
     color: #FFFFFF;
     padding-bottom: 34px;
 }
-.at{
+.text{
     font-size: 18px;
     line-height: 37px;
     text-align: center;
     color: #363636;
     text-align: center;
 }
-.name{
+.forma_shrift{
     font-size: 13px;
     line-height: 21px;
     color: rgba(54, 54, 54, 0.5);
     margin-right: 56px;
 }
-.name1{
+.forma_shrift--modyfi{
     color: rgba(255, 255, 255, 0.5);
 }
-.name2{
+.questions_name{
     display: inline-block;
     color: rgba(255, 255, 255, 0.5);
     font-size: 13px;
@@ -140,34 +148,34 @@ body{
     background: black;
     margin-bottom: 13px;
 }
-.place2{
+.questions_input{
     background: black;
     color: white;
     width: 231px;
 }
-.chec{
+.label__checkbox{
     font-size: 14px;
     line-height: 23px;
     color: #181818;
 }
-.chec1{
+.label__checkbox--modyfi{
     color: white;
     width: 470px;
 }
-.chec2{
+.label__checkbox--position{
     color: white;
     text-align: center;
     position: relative;
     top: 49px;
     right: 93px;
 }
-.block_p{
+.stiker__content__block__zagolovok{
     font-size: 18px;
     line-height: 25px;
     color: #363636;
     padding-left: 23px;
 }
-.block_li{
+.stiker__content__block__opisanie{
     font-size: 13px;
     line-height: 27px;
     color: #959595;
@@ -187,7 +195,7 @@ body{
     color: #363636;
     width: 316px;
 }
-.leave{
+.forma_vizova__nazvanie{
     font-size: 18px;
     line-height: 26px;
     text-align: center;
@@ -205,7 +213,7 @@ body{
     line-height: 23px;
     color: #181818;
 }
-.opisanie{
+.otziv{
     font-size: 13px;
     line-height: 23px;
     color: #959595;
@@ -239,11 +247,11 @@ body{
 }
 /*шрифты*/
 /*фон*/
-.ludi4{
+.clients{
     height: 1107px;
     background-image: url(../images/Frame.jpg);
 }
-.heder{
+.fon300{
     background-color: black;
     height: 83px;
 }
@@ -253,20 +261,20 @@ body{
     position: relative;
     top: 760px;
 }
-.footer1{
+.footer_size{
     height: 133px;
 
 }
-.fon{
+.turnkey_repair{
     position: relative;
     background-image: url(../images/image\ 4.3.jpg);
     height: 707px;
 }
-.fon2{
+.completed_projects{
     background-color: black;
     height: 1074px;
 }
-.fon::before{
+.turnkey_repair::before{
     content: '';
     position: absolute;
     left: 0;
@@ -275,19 +283,19 @@ body{
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.7);
 }
-.content_osnova{
+.wildest_fantasies__background{
     display: flex;
     margin-top: 242px;
     height: 864px;
 }
-.fon5{
+.wildest_fantasies{
     background-image: url(../images/image\ 5.1.jpg);
     margin-top: 242px;
     height: 864px;
     position: relative;
 
 }
-.fon5::before{
+.wildest_fantasies::before{
     content: '';
     position: absolute;
     left: 0;
@@ -296,12 +304,12 @@ body{
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.8);
 }
-.fon6{
+.shema_proezda{
     background-image: url(../images/image\ 7.2.jpg);
     position: relative;
     height: 953px;
 }
-.fon6::before{
+.shema_proezda::before{
     content: '';
     position: absolute;
     left: 0;
@@ -310,7 +318,7 @@ body{
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.8);
 }
-.gorod2{
+.forma_vizova{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -336,81 +344,99 @@ body{
 }
 /*фон*/
 /*контент*/
-.content{
+.header{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.content_fon{
+.turnkey_repair__content{
     position: absolute;
     margin-top: 194px;
     margin-left: 134px;
 }
-.content_fon5{
+.wildest_fantasies__background--style{
     position: relative;
     top: 134px;
     left: 100px;
 }
-.content_fon5_left{
+.wildest_fantasies__background--left_images{
     position: relative;
     display: flex;
     flex-direction: column;
     left: 350px;
     bottom: 40px;
 }
-.content_fon5_right{
+.wildest_fantasies__background--right_images{
     position: relative;
     display: flex;
     flex-direction: column;
     left: 430px;
     bottom: 114px;
 }
-.left{
+.completed_projects__left{
     display: inline-block;
     position: relative;
     bottom: 295px;
     margin-left: 134px;
     margin-right: 50px;
 }
-.right{
+.completed_projects__right{
     display: inline-block;
     margin-top: 107px;
 }
-.content_fon3{
+.online_control__content{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: -348px;
 }
-.content_fon4{
+.online_control__content__video_images{
+    margin-bottom: -236px;
+}
+.online_control__content__video{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.online_control__content__video::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: -0;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.stiker{
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.ludi{
+.stiker__content_our_clients{
     height: 428px;
     width: 376px;
     background: #FFFFFF;
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
     margin-right: 54px;
 }
-.block1{
+.stiker__content__block{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-right: 30px;
     margin-top: 53px;
 }
-.block{
+.stiker__content__block__text{
     background-color: white;
     margin-top: -120px;
 }
-.content_block{
+.stiker__content{
     display: flex;
 }
-.gorod{
+.uslugi{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -419,7 +445,7 @@ body{
     width: 703px;
     height: 646px;
 }
-.plos{
+.ploshad_remonta{
     position: relative;
     top: 84px;
     height: 54px;
@@ -427,7 +453,7 @@ body{
     background: #E3B873;
     box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
 }
-.karta{
+.shema_proezda_karta{
     display: flex;
     flex-direction: column;
     position: relative;
@@ -465,7 +491,7 @@ body{
     border: none;
     cursor:pointer
 }
-.calc1{
+.forma_vizova--button{
     position: relative;
     left: 125px;
     top: 50px;
@@ -474,7 +500,7 @@ body{
     border: none;
     cursor:pointer
 }
-.calc2{
+.questions_button{
     height: 51px;
     width: 200px;
     position: relative;
@@ -496,7 +522,7 @@ body{
     border: none;
     cursor:pointer
 }
-.block_but{
+.stiker__content__block__button{
     width: 228px;
     height: 54px;
     background: #E3B873;
@@ -538,23 +564,23 @@ body{
   }
 /*checkbox*/
 /**/
-.ludi_img{
+.stiker__content_our_clients_foto{
     margin-bottom: -18px;
 }
 .niz{
     margin-top: 39px;
 }
-.fon5_li{
+.wildest_fantasies__background--style_spisok{
     margin-top: 17px;
     list-style: none;
 }
-.navigation_ul{
+.header__navigation__ul{
     list-style: none;
     display: flex;
     padding: 0;
 }
 
-.navigation_items{
+.header__navigation__ul__items{
     margin-right: 47px;
     font-size: 11px;
     line-height: 15px;
@@ -562,7 +588,7 @@ body{
     text-decoration: none;
 
 }
-.navigation_items2{
+.completed_projects__right__navigation_items{
     font-size: 14px;
     line-height: 19px;
     text-transform: uppercase;
@@ -570,47 +596,44 @@ body{
     text-decoration: none;
     margin-right: 60px;
 }
-.navigation_items3{
+.wildest_fantasies__background--style_items{
     font-size: 20px;
     line-height: 38px;  
     color: #FFFFFF;
     text-decoration: none;
 }
-.navigation_items:hover{
+.header__navigation__ul__items:hover{
     text-decoration: underline;
     color: #E3B873;
 }
-.navigation_items2:hover{
+.completed_projects__right__navigation_items:hover{
     text-decoration: underline;
     color: #E3B873;
 }
-.navigation_items3:hover{
+.wildest_fantasies__background--style_items:hover{
     text-decoration: underline;
     color: #E3B873;
 }
-.play{
+.online_control__content__play{
+    position: relative;
+    margin-bottom: 150px;
     width: 85px;
     height: 85px;
     border-radius: 50px;
-    margin-top: -249px;
     background: #E3B873;
     box-shadow: 0px 5px 30px rgba(227, 184, 115, 0.2);
     border: none;
     cursor:pointer
+    
+    
 }
-.kist{
+.online_control__content__kist{
     margin-top: 12px;
     margin-bottom: 31px;
 }
-.shtri{
-    margin-top: 197px;
+.online_control__content__shtri{
+    margin-top: 63px;
     margin-bottom: 34px;
-}
-table{
-    display: inline-block;
-    position: relative;
-    bottom: 272px;
-    margin-left: 134px;
 }
 .type{
     margin-top: 147px;
@@ -629,11 +652,11 @@ table{
 .input{
     display: flex;
 }
-.gorod1{
+.konsultacia{
     display: flex;
     align-items: center;
 }
-.slyde1{
+.desktop_none{
     display: none;
 }
 @media screen and (max-width: 1300px) {
@@ -644,21 +667,11 @@ table{
         flex-direction: column;
         align-items: center;
     }
-    .block1{
+    .mobile_none{
+        display: none;
+    }
+    .stiker__content__block{
         margin-right: 0px;
-    }
-    
-    .gorod1{
-        display: none;
-    }
-    .fon5{
-        display: none;
-    }
-    .navigation {
-        display: none;
-    }
-    .telefon{
-        display: none;
     }
     .telefon_mobile{
         display: contents;
@@ -667,7 +680,7 @@ table{
     .logo{
         margin-right: 20px;
     }
-    .content_fon{
+    .turnkey_repair__content{
         margin-left: 0px;
         margin-top: 142px;
         text-align-last: center;
@@ -690,14 +703,14 @@ table{
         top: 50px;
         margin-right: 0px;
     }
-    .left{
+    .completed_projects__left{
         display: inline-block;
         position: relative;
         bottom: 0px;
         margin: 0;
         text-align-last: center;
     }
-    .right{
+    .completed_projects__right{
         display: inline-block;
         margin-top: 0px;
     }
@@ -705,11 +718,9 @@ table{
         display: none;
         width: 100%;
     }
-    .image_3{
+    .online_control__content__video_images{
         width: 100%;
-    }
-    .strelki{
-        display: none;
+        margin-bottom: 30px;
     }
     table{
         bottom: 0px;
@@ -720,15 +731,12 @@ table{
         flex-direction: column;
         align-items: center;
     }
-    .content_block{
+    .stiker__content{
         display: flex;
         flex-direction: column;
     }
     .type{
         margin-top: 58px;
-    }
-    .ludi4{
-        display: none;
     }
     .conteyner_mobile{
         display: flex;
@@ -743,19 +751,13 @@ table{
         justify-content: space-between;
         align-items: center;
     }
-    .slyde1{
+    .completed_projects__slyde{
         height: 242px;
         width: 340px;
         background-image: url(../images/com.jpg);
         display: flex;
         justify-content: space-between;
         align-items: center;
-    }
-    .footer{
-        display: none;
-    }
-    .fon6{
-        display: none;
     }
     .questions{
         Width: 100%;
@@ -768,7 +770,7 @@ table{
         flex-direction: column;
         align-items: center;
     }
-    .name2{
+    .questions_name{
         display: inline-block;
         color: rgba(255, 255, 255, 0.5);
         font-size: 13px;
@@ -776,9 +778,9 @@ table{
         margin-left: 0px;
         margin-top: 0px;
     }
-    .calc2{
-        left: 0px;
-        top: 0px;
+    .questions_button{
+        height: 51px;
+        width: 340px;
     }
     .any{
         padding-top: 22px;
@@ -798,18 +800,20 @@ table{
         margin-left: 0px;
         margin-bottom: 26px;
     }
-    .put{
+    .karta_mobile_adress{
         width: 100%;
         height: 100%;
     }
-    .play{
+    .online_control__content__play{
         margin-top: -151px;
-
+        margin-bottom: 71px;
+        width: 50px;
+        height: 50px;
     }
-    .fon3{
+    .online_control{
         background-color: black;
     }
-    .at{
+    .text{
         color: white;
     }
     .place{
@@ -817,11 +821,11 @@ table{
         color: white;
         width: 340px;
     }
-    .name{
+    .forma_shrift{
         color: rgba(255, 255, 255, 0.5);
         margin-right: 0px;
     }
-    .chec{
+    .label__checkbox{
         color: white;
         position: relative;
         right: 0px;

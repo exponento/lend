@@ -53,21 +53,23 @@
                 <div class="completed_projects__right">
                     <nav class="header__navigation mobile_none">
                         <ul class="header__navigation__ul">
-                            <li><a class="completed_projects__right__navigation_items" href="">Rostov-on-Don, Admiral</a></li>
-                            <li><a class="completed_projects__right__navigation_items" href="">Sochi Thieves</a></li>
-                            <li><a class="completed_projects__right__navigation_items" href="">Rostov-on-Don Patriotic</a></li>
+                            <li><a id="aAdmiral" class="completed_projects__right__navigation_items">Rostov-on-Don, Admiral</a></li>
+                            <li><a id="aThieves" class="completed_projects__right__navigation_items">Sochi Thieves</a></li>
+                            <li><a id="aPatriotic" class="completed_projects__right__navigation_items">Rostov-on-Don Patriotic</a></li>
 
                         </ul>
                     </nav>
-                    <img class="image_2" src="images/image 2.1.jpg" alt="">
+                    <img id="imgAdmiral" class="image_2 img1" src="images/img1.jpg" alt="">
+                    <img id="imgThieves" class="image_2 img2" src="images/img2.jpg" alt="">
+                    <img id="imgPatriotic" class="image_2 img3" src="images/img3.jpg" alt="">
         
                 </div>
-                <div class="completed_projects__slyde desktop_none">
-                    <button class="slyde_button"><img src="images/lev.svg" alt=""></button>
-                    <button class="slyde_button"><img src="images/prav.svg" alt=""></button>
+                <div id="mobileSlide" class="completed_projects__slyde desktop_none">
+                    <button id="mobileLeft" class="slyde_button"><img src="images/lev.svg" alt=""></button>
+                    <button id="mobileRight" class="slyde_button"><img src="images/prav.svg" alt=""></button>
                 </div>
 
-                <table>
+                <table id="tableAdmiral" class="table tab1">
                     <tr>
                         <td class="yeseva completed_projects_table_items">City:</td>
                         <td class="yeseva completed_projects_table_items">apartment area:</td>
@@ -85,7 +87,49 @@
                         <td class="nunito completed_projects_table_cells">Upon request</td>
                     </tr>
                 </table>
-                <img class="strelki mobile_none" src="images/Group 8.4.svg" alt="">
+                <table id="tableThieves" class="table tab2">
+                    <tr>
+                        <td class="yeseva completed_projects_table_items">City:</td>
+                        <td class="yeseva completed_projects_table_items">apartment area:</td>
+                    </tr>
+                    <tr>
+                        <td class="nunito completed_projects_table_cells">Sochi <br> Thieves</td>
+                        <td class="nunito completed_projects_table_cells">105 m2</td>
+                    </tr>
+                    <tr>
+                        <td class="yeseva completed_projects_table_items">Repair time:</td>
+                        <td class="yeseva completed_projects_table_items">Repair Cost:</td>
+                    </tr>
+                    <tr>
+                        <td class="nunito completed_projects_table_cells">4 months</td>
+                        <td class="nunito completed_projects_table_cells">Upon request</td>
+                    </tr>
+                </table>
+                <table id="tablePatriotic" class="table tab3">
+                    <tr>
+                        <td class="yeseva completed_projects_table_items">City:</td>
+                        <td class="yeseva completed_projects_table_items">apartment area:</td>
+                    </tr>
+                    <tr>
+                        <td class="nunito completed_projects_table_cells">Rostov-on-Don<br> Patriotic</td>
+                        <td class="nunito completed_projects_table_cells">93 m2</td>
+                    </tr>
+                    <tr>
+                        <td class="yeseva completed_projects_table_items">Repair time:</td>
+                        <td class="yeseva completed_projects_table_items">Repair Cost:</td>
+                    </tr>
+                    <tr>
+                        <td class="nunito completed_projects_table_cells">3 months</td>
+                        <td class="nunito completed_projects_table_cells">Upon request</td>
+                    </tr>
+                </table>
+                <div class="slide__play mobile_none">
+                    <div><img id="slideLeft" class="slide__play_button" src="images/slideLeft.svg" alt=""></div>
+                    <div id="dotsAdmiral" class="dots al dots1"><img id="slideAdmiral" class="slide__play_button" src="images/tochka.svg" alt=""></div>
+                    <div id="dotsThieves" class="dots al dots2"><img id="slideThieves" class="slide__play_button" src="images/tochka.svg" alt=""></div>
+                    <div id="dotsPatriotic" class="dots al dots3"><img id="slidePatriotic" class="slide__play_button" src="images/tochka.svg" alt=""></div>
+                    <div><img id="slideRight" class="slide__play_button" src="images/slideRight.svg" alt=""></div>
+                </div>
             </div>
         </div>
         <div class="online_control">
@@ -325,5 +369,6 @@
             </div>
         </div>
     </footer>
+    <script src="./Script.js"></script>
 </body>
 </html>
